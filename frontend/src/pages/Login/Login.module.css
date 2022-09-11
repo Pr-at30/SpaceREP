@@ -1,0 +1,39 @@
+.login {
+  height: calc(100vh - 100px);
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  /* background-color: #eee; */
+}
+.formContainer {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+}
+.formContainer,
+.imgHolder {
+  flex: 1;
+}
+.imgHolder img {
+  height: 500px;
+}
+.imgHolder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  border: solid 1px var(--text-secondary);
+  border-radius: 10px;
+  height: 90%;
+  padding: 5px 20px;
+  justify-content: space-evenly;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.cardFooter {
+  align-self: center;
+}

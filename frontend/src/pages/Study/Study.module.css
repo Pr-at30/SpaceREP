@@ -1,0 +1,28 @@
+.study {
+  height: calc(100vh - 100px);
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 10%;
+  justify-content: center;
+  align-items: center;
+}
+.deckContainer {
+  display: grid;
+  width: 100vw;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, 286px);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+}
+
+.card {
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 287px;
+  height: 272px;
+  border-radius: 20px;
+}

@@ -1,0 +1,44 @@
+.member {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  border-radius: 20px;
+  min-height: 55vh;
+  height: fit-content;
+  margin: 1rem auto;
+}
+.member:hover {
+  transform: scale(1.1);
+}
+.profileImage {
+  height: 40vh;
+  width: 286px;
+  object-fit: cover;
+}
+
+.info {
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+.name {
+  font-size: larger;
+}
+.social {
+  align-self: flex-end;
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin-top: 1rem;
+}
+.social a {
+  color: inherit;
+}
+.icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.icon:hover {
+  transform: scale(1.2);
+  color: #222;
+}

@@ -1,0 +1,72 @@
+.builder{
+  height: cal(max(calc(100vmax - 150vh),100vh),100vmax);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.qimagec, .qdescc, .questionc{
+  margin-bottom: 2rem;
+  padding: 2rem;
+}
+
+.card{
+  width: 50%; 
+  height:auto;  
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--background-light);
+  border-radius: 10px;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+.deckHeading{
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: var(--highlight);
+  margin-bottom: 2rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+}
+
+.text{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  margin: 2rem;
+  color: #555555;
+}
+
+.questionc, .qdescc, .qimagec {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.qimage{
+  text-align: center;
+  width: 80%;
+}
+
+.done{
+  border: none;
+  padding: 1rem;
+  background-color: var(--text-primary);
+  color: var(--background);
+  font-size: 1.25rem;
+  border-radius: 10px;
+  align-self: center;
+  margin-bottom: 1rem;
+}
+
+.question, .qdesc, .qimage{
+  font-weight: 500;
+}

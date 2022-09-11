@@ -1,0 +1,41 @@
+.hero {
+  height: calc(100vh - 100px);
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 10%;
+}
+.imgHolder,
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #eee; */
+  flex: 1;
+}
+.content {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 70px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.imgHolder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* object-fit: cover; */
+  /* display: none; */
+}
+.imgHolder img {
+  height: 300px;
+}
+.bottom {
+  display: flex;
+  width: 100vw;
+  /* margin: -100px 0; */
+}
+/* .imgHolder img {
+  height: 400px;
+} */
